@@ -1,0 +1,7 @@
+kimai/mysql/
+.nvm/
+.pm2/
+.cache/
+.ssh/
+*.zip
+*.sql

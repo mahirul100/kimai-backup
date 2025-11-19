@@ -1,0 +1,18 @@
+0 verbose cli /home/mahir/.nvm/versions/node/v20.19.4/bin/node /home/mahir/.nvm/versions/node/v20.19.4/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:/home/mahir/.nvm/versions/node/v20.19.4/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/mahir/witfinance-prod/frontend/.npmrc
+5 silly config load:file:/home/mahir/.npmrc
+6 silly config load:file:/home/mahir/.nvm/versions/node/v20.19.4/etc/npmrc
+7 verbose title npm cache verify
+8 verbose argv "cache" "verify"
+9 verbose logfile logs-max:10 dir:/home/mahir/.npm/_logs/2025-07-17T22_58_06_534Z-
+10 verbose logfile /home/mahir/.npm/_logs/2025-07-17T22_58_06_534Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /home/mahir/witfinance-prod/frontend
+13 verbose os Linux 6.8.0-64-generic
+14 verbose node v20.19.4
+15 verbose npm  v10.8.2
+16 verbose exit 0
+17 info ok

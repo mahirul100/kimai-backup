@@ -1,0 +1,162 @@
+0 verbose cli /home/mahir/.nvm/versions/node/v20.19.4/bin/node /home/mahir/.nvm/versions/node/v20.19.4/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:/home/mahir/.nvm/versions/node/v20.19.4/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/mahir/witfinance-prod/backend/.npmrc
+5 silly config load:file:/home/mahir/.npmrc
+6 silly config load:file:/home/mahir/.nvm/versions/node/v20.19.4/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/mahir/.npm/_logs/2025-07-17T23_14_47_566Z-
+10 verbose logfile /home/mahir/.npm/_logs/2025-07-17T23_14_47_566Z-debug-0.log
+11 silly packumentCache heap:1057226752 maxSize:264306688 maxEntrySize:132153344
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@mongodb-js/saslprep': [ '1.3.0' ],
+16 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+16 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+16 silly audit   accepts: [ '1.3.8' ],
+16 silly audit   'array-flatten': [ '1.1.1' ],
+16 silly audit   'basic-auth': [ '2.0.1' ],
+16 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+16 silly audit   bcryptjs: [ '2.4.3' ],
+16 silly audit   'body-parser': [ '1.20.3' ],
+16 silly audit   bson: [ '6.10.4' ],
+16 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+16 silly audit   bytes: [ '3.1.2' ],
+16 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+16 silly audit   'call-bound': [ '1.0.4' ],
+16 silly audit   'content-disposition': [ '0.5.4' ],
+16 silly audit   'content-type': [ '1.0.5' ],
+16 silly audit   cookie: [ '0.7.1' ],
+16 silly audit   'cookie-signature': [ '1.0.6' ],
+16 silly audit   cors: [ '2.8.5' ],
+16 silly audit   debug: [ '2.6.9', '4.4.1' ],
+16 silly audit   depd: [ '2.0.0' ],
+16 silly audit   destroy: [ '1.2.0' ],
+16 silly audit   dotenv: [ '8.6.0' ],
+16 silly audit   'dunder-proto': [ '1.0.1' ],
+16 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+16 silly audit   'ee-first': [ '1.1.1' ],
+16 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+16 silly audit   'es-define-property': [ '1.0.1' ],
+16 silly audit   'es-errors': [ '1.3.0' ],
+16 silly audit   'es-object-atoms': [ '1.1.1' ],
+16 silly audit   'escape-html': [ '1.0.3' ],
+16 silly audit   etag: [ '1.8.1' ],
+16 silly audit   express: [ '4.21.2' ],
+16 silly audit   finalhandler: [ '1.3.1' ],
+16 silly audit   forwarded: [ '0.2.0' ],
+16 silly audit   fresh: [ '0.5.2' ],
+16 silly audit   'function-bind': [ '1.1.2' ],
+16 silly audit   'get-intrinsic': [ '1.3.0' ],
+16 silly audit   'get-proto': [ '1.0.1' ],
+16 silly audit   gopd: [ '1.2.0' ],
+16 silly audit   'has-symbols': [ '1.1.0' ],
+16 silly audit   hasown: [ '2.0.2' ],
+16 silly audit   'http-errors': [ '2.0.0' ],
+16 silly audit   'iconv-lite': [ '0.4.24' ],
+16 silly audit   inherits: [ '2.0.4' ],
+16 silly audit   'ipaddr.js': [ '1.9.1' ],
+16 silly audit   jsonwebtoken: [ '9.0.2' ],
+16 silly audit   ms: [ '2.1.3', '2.0.0' ],
+16 silly audit   jwa: [ '1.4.2' ],
+16 silly audit   jws: [ '3.2.2' ],
+16 silly audit   kareem: [ '2.6.3' ],
+16 silly audit   'lodash.includes': [ '4.3.0' ],
+16 silly audit   'lodash.isboolean': [ '3.0.3' ],
+16 silly audit   'lodash.isinteger': [ '4.0.4' ],
+16 silly audit   'lodash.isnumber': [ '3.0.3' ],
+16 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+16 silly audit   'lodash.isstring': [ '4.0.1' ],
+16 silly audit   'lodash.once': [ '4.1.1' ],
+16 silly audit   'math-intrinsics': [ '1.1.0' ],
+16 silly audit   'media-typer': [ '0.3.0' ],
+16 silly audit   'memory-pager': [ '1.5.0' ],
+16 silly audit   'merge-descriptors': [ '1.0.3' ],
+16 silly audit   methods: [ '1.1.2' ],
+16 silly audit   mime: [ '1.6.0' ],
+16 silly audit   'mime-db': [ '1.52.0' ],
+16 silly audit   'mime-types': [ '2.1.35' ],
+16 silly audit   mongodb: [ '6.17.0' ],
+16 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+16 silly audit   mongoose: [ '8.16.3' ],
+16 silly audit   morgan: [ '1.10.0' ],
+16 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+16 silly audit   mpath: [ '0.9.0' ],
+16 silly audit   mquery: [ '5.0.0' ],
+16 silly audit   negotiator: [ '0.6.3' ],
+16 silly audit   'object-assign': [ '4.1.1' ],
+16 silly audit   'object-inspect': [ '1.13.4' ],
+16 silly audit   'on-headers': [ '1.0.2' ],
+16 silly audit   parseurl: [ '1.3.3' ],
+16 silly audit   'path-to-regexp': [ '0.1.12' ],
+16 silly audit   pg: [ '8.16.3' ],
+16 silly audit   'pg-cloudflare': [ '1.2.7' ],
+16 silly audit   'pg-connection-string': [ '2.9.1' ],
+16 silly audit   'pg-int8': [ '1.0.1' ],
+16 silly audit   'pg-pool': [ '3.10.1' ],
+16 silly audit   'pg-protocol': [ '1.10.3' ],
+16 silly audit   'pg-types': [ '2.2.0' ],
+16 silly audit   pgpass: [ '1.0.5' ],
+16 silly audit   'postgres-array': [ '2.0.0' ],
+16 silly audit   'postgres-bytea': [ '1.0.0' ],
+16 silly audit   'postgres-date': [ '1.0.7' ],
+16 silly audit   'postgres-interval': [ '1.2.0' ],
+16 silly audit   'proxy-addr': [ '2.0.7' ],
+16 silly audit   punycode: [ '2.3.1' ],
+16 silly audit   qs: [ '6.13.0' ],
+16 silly audit   'range-parser': [ '1.2.1' ],
+16 silly audit   'raw-body': [ '2.5.2' ],
+16 silly audit   'safer-buffer': [ '2.1.2' ],
+16 silly audit   semver: [ '7.7.2' ],
+16 silly audit   send: [ '0.19.0' ],
+16 silly audit   'serve-static': [ '1.16.2' ],
+16 silly audit   setprototypeof: [ '1.2.0' ],
+16 silly audit   'side-channel': [ '1.1.0' ],
+16 silly audit   'side-channel-list': [ '1.0.0' ],
+16 silly audit   'side-channel-map': [ '1.0.1' ],
+16 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+16 silly audit   sift: [ '17.1.3' ],
+16 silly audit   'sparse-bitfield': [ '3.0.3' ],
+16 silly audit   split2: [ '4.2.0' ],
+16 silly audit   statuses: [ '2.0.1' ],
+16 silly audit   toidentifier: [ '1.0.1' ],
+16 silly audit   tr46: [ '5.1.1' ],
+16 silly audit   'type-is': [ '1.6.18' ],
+16 silly audit   unpipe: [ '1.0.0' ],
+16 silly audit   'utils-merge': [ '1.0.1' ],
+16 silly audit   vary: [ '1.1.2' ],
+16 silly audit   'webidl-conversions': [ '7.0.0' ],
+16 silly audit   'whatwg-url': [ '14.2.0' ],
+16 silly audit   xtend: [ '4.0.2' ]
+16 silly audit }
+17 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 483ms
+18 silly audit report {
+18 silly audit report   'on-headers': [
+18 silly audit report     {
+18 silly audit report       id: 1106462,
+18 silly audit report       url: 'https://github.com/advisories/GHSA-76c9-3jph-rj3q',
+18 silly audit report       title: 'on-headers is vulnerable to http response header manipulation',
+18 silly audit report       severity: 'low',
+18 silly audit report       vulnerable_versions: '<1.1.0',
+18 silly audit report       cwe: [Array],
+18 silly audit report       cvss: [Object]
+18 silly audit report     }
+18 silly audit report   ]
+18 silly audit report }
+19 silly packumentCache corgi:https://registry.npmjs.org/on-headers cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/on-headers 98ms (cache miss)
+21 silly packumentCache corgi:https://registry.npmjs.org/on-headers set size:undefined disposed:false
+22 silly packumentCache corgi:https://registry.npmjs.org/morgan cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/morgan 66ms (cache revalidated)
+24 silly packumentCache corgi:https://registry.npmjs.org/morgan set size:21617 disposed:false
+25 verbose cwd /home/mahir/witfinance-prod/backend
+26 verbose os Linux 6.8.0-64-generic
+27 verbose node v20.19.4
+28 verbose npm  v10.8.2
+29 verbose exit 0
+30 info ok

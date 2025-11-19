@@ -1,0 +1,29 @@
+version: '3.4'
+services:
+  kimai:
+    image: kimai/kimai2:apache
+    container_name: kimai
+    ports:
+      - "8001:8001"
+    volumes:
+      - kimai_data:/opt/kimai
+    environment:
+      - APP_ENV=prod
+      - TRUSTED_PROXIES=*
+      - ADMIN_PASSWORD=changeme
+      - ADMIN_EMAIL=admin@example.com
+      - DATABASE_URL=mysql://kimai:kimai@mysql/kimai
+
+  mysql:
+    image: mysql:5.7
+    container_name: kimai_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=kimai
+      - MYSQL_USER=kimai
+      - MYSQL_PASSWORD=kimai
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+volumes:
+  kimai_data:
