@@ -5,3 +5,4 @@ kimai/mysql/
 .ssh/
 *.zip
 *.sql
+.bash_history
